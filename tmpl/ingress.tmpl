@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: HOST_NAME
+  namespace: ava
+spec:
+  rules:
+  - host: HOST_NAME.ava.ke-xs.cloudappl.com
+    http:
+      paths:
+      - backend:
+          serviceName: SERVICE_NAME
+          servicePort: 80
+        path: /

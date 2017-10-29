@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: HOST_NAME
+  namespace: ava
+spec:
+  selector:
+    jupyter: HOST_NAME
+  ports:
+    - name: POD_NAME
+      protocol: TCP
+      port: 80
+      targetPort: 8888
+  type: LoadBalancer
