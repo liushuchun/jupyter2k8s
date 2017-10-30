@@ -28,11 +28,11 @@
 
 创建ipython![](/assets/ipy.png)
 
-输入代码,run
+## 输入代码,run
 
 ![](/assets/re.png)
 
-新建终端
+## 新建终端
 
 ![](/assets/terminal.png)
 
