@@ -3,7 +3,10 @@
 ```bash
 ./create.sh pod-name host-name
 ```
-
+这里我们创建
+```
+./create.sh distribute-liusc-master liusc
+```
 # 安装jupyter book
 
 ```bash
@@ -24,7 +27,7 @@
 
 ![](/assets/hello.png)
 
-将token \`6d88dd50864b80fcf5415fb7213db1a760349f097fe131ee\`输入当中。
+将token \`6d88dd50864b80fcf********************\`输入当中。*号是为了安全
 
 创建ipython![](/assets/ipy.png)
 
