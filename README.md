@@ -5,7 +5,7 @@
 ```
 这里我们创建
 ```
-./create.sh distribute-liusc-master liusc
+./create.sh distribute-liusc-master master
 ```
 # 安装jupyter book
 
