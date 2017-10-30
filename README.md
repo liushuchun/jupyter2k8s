@@ -32,6 +32,7 @@
 创建ipython![](/assets/ipy.png)
 
 ## 输入代码,run
+可以直接运行，输出图片，方便调试和观察，同时也可以直接打开图片和文件。
 
 ![](/assets/re.png)
 
