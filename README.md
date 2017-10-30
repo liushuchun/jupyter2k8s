@@ -1,17 +1,40 @@
-# 创建service 和 ingress 
+# 创建service 和 ingress
 
 ```bash
 ./create.sh pod-name host-name
-
 ```
 
 # 安装jupyter book
 
 ```bash
-./env.sh 
+./env.sh
 ```
 
-# 使用jupyter 
+# 使用jupyter
 
-`nohup jupyter-notebook --ip=172.20.49.61 --allow-root &`
+`nohup jupyter-notebook --ip=172.20.49.56 --allow-root &`
+
+注意讲`172.20.49.56`替换为你自己的ip.
+
+![](/assets/ip.png)
+
+![](/assets/import2.png)将token部分复制到剪切板。
+
+打开浏览器,输入http://master.ava.ke-xs.cloudappl.com/
+
+![](/assets/hello.png)
+
+将token \`6d88dd50864b80fcf5415fb7213db1a760349f097fe131ee\`输入当中。
+
+创建ipython![](/assets/ipy.png)
+
+输入代码,run
+
+![](/assets/re.png)
+
+新建终端
+
+![](/assets/terminal.png)
+
+![](/assets/terms.png)
 
