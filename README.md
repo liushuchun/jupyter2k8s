@@ -39,6 +39,7 @@
 ## 新建终端
 
 ![](/assets/terminal.png)
+## 终端和shell类似
 
 ![](/assets/terms.png)
 
