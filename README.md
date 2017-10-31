@@ -8,6 +8,7 @@
 ./create.sh distribute-liusc-master master
 ```
 # 安装jupyter book
+进入容器，执行env.sh安装jupyter
 
 ```bash
 ./env.sh
