@@ -7,6 +7,7 @@
 ```
 ./create.sh distribute-liusc-master master
 ```
+把master换成你自己的，不要重复了，每个host都是唯一的.
 # 安装jupyter book
 进入容器，执行env.sh安装jupyter
 
