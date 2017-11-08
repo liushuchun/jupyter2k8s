@@ -16,16 +16,18 @@
 ```
 
 # 使用jupyter
+在容器中执行：
 
 `nohup jupyter-notebook --ip=172.20.49.56 --allow-root &`
 
-注意讲`172.20.49.56`替换为你自己的ip.
+注意将`172.20.49.56`替换为你自己的ip.
 
 ![](/assets/ip.png)
 
 ![](/assets/import2.png)将token部分复制到剪切板。
 
 打开浏览器,输入http://master.ava.ke-xs.cloudappl.com/
+将master替换为你自己的host
 
 ![](/assets/hello.png)
 
