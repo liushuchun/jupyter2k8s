@@ -17,11 +17,11 @@ cp ./tmpl/ingress.tmpl ./ingress.yml
 cp ./tmpl/service.tmpl ./service.yml
 
 
-sed -i "" "s/HOST_NAME/${host_name}/g" *.yml 
+sed -i "s/HOST_NAME/${host_name}/g" *.yml
 
-sed -i "" "s/SERVICE_NAME/${service_name}/g" *.yml 
+sed -i "s/SERVICE_NAME/${service_name}/g" *.yml
 
-sed -i "" "s/POD_NAME/${pod_name}/g" *.yml 
+sed -i "s/POD_NAME/${pod_name}/g" *.yml
 
 echo "add label to the pod"
 
@@ -37,6 +37,6 @@ echo "done!"
 echo "..."
 #rm -rf ./tmpl/tmp/
 
-rm -rf *.yml 
+rm -rf *.yml
 
 
