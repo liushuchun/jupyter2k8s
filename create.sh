@@ -25,7 +25,7 @@ sed -i "s/POD_NAME/${pod_name}/g" *.yml
 
 echo "add label to the pod"
 
-kubectl label pods $pod_name jupyter=$host_name
+kubectl label pods $pod_name jupyter=$host_name --overwrite=true
 
 echo "create service"
 kubectl create -f service.yml
