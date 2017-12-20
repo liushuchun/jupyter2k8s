@@ -2,6 +2,10 @@
 #author:liushuchun
 #update data:2017-10-26
 
+#install ifconfig
+apt-get install net-tools
+
+
 #update the pip
 pip install --upgrade pip
 
